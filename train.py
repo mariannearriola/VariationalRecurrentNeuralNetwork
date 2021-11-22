@@ -7,6 +7,7 @@ from torchvision import datasets, transforms
 from torch.autograd import Variable
 import matplotlib.pyplot as plt 
 from models.model import VRNN
+from visdom import Visdom
 
 """implementation of the Variational Recurrent
 Neural Network (VRNN) from https://arxiv.org/abs/1506.02216
@@ -56,7 +57,9 @@ def train(epoch):
 
 	print('====> Epoch: {} Average loss: {:.4f}'.format(
 		epoch, train_loss / len(train_loader.dataset)))
-
+	viz.line([(train_loss / len(train_loader.dataset)).item()], [epoch], win='train_loss', update='append')
+	viz.line([(kld_loss.data / batch_size).item()], [epoch], win='kld_loss', update='append')
+	viz.line([(nll_loss.data / batch_size).item()], [epoch], win='nll_loss', update='append')
 
 def test(epoch):
 	"""uses test data to evaluate 
@@ -113,6 +116,11 @@ test_loader = torch.utils.data.DataLoader(
 
 model = VRNN(x_dim, h_dim, z_dim, n_layers).cuda(2)
 optimizer = torch.optim.Adam(model.parameters(), lr=learning_rate)
+
+viz = Visdom()
+viz.line([0.], [0], win='train_loss', opts=dict(title='train_loss'))
+viz.line([0.], [0], win='kld_loss', opts=dict(title='kld_loss'))
+viz.line([0.], [0], win='nll_loss', opts=dict(title='nll_loss'))
 
 for epoch in range(1, n_epochs + 1):
 	

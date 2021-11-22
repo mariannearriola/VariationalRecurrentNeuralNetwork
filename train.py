@@ -6,7 +6,7 @@ import torch.utils.data
 from torchvision import datasets, transforms
 from torch.autograd import Variable
 import matplotlib.pyplot as plt 
-from model import VRNN
+from models.model import VRNN
 
 """implementation of the Variational Recurrent
 Neural Network (VRNN) from https://arxiv.org/abs/1506.02216

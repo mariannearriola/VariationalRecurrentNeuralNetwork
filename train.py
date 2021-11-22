@@ -22,11 +22,13 @@ def train(epoch):
 		#data = Variable(data)
 		#to remove eventually
 		data = Variable(data.squeeze().transpose(0, 1))
-		data = (data - data.min().data[0]) / (data.max().data[0] - data.min().data[0])
+
+		#data = (data - data.min().data[0]) / (data.max().data[0] - data.min().data[0])
+		data = (data - data.min().data) / (data.max().data - data.min().data)
 		
 		#forward + backward + optimize
 		optimizer.zero_grad()
-		kld_loss, nll_loss, _, _ = model(data)
+		kld_loss, nll_loss, _, _ = model(data.cuda(2))
 		loss = kld_loss + nll_loss
 		loss.backward()
 		optimizer.step()
@@ -39,14 +41,17 @@ def train(epoch):
 			print('Train Epoch: {} [{}/{} ({:.0f}%)]\t KLD Loss: {:.6f} \t NLL Loss: {:.6f}'.format(
 				epoch, batch_idx * len(data), len(train_loader.dataset),
 				100. * batch_idx / len(train_loader),
-				kld_loss.data[0] / batch_size,
-				nll_loss.data[0] / batch_size))
+				#kld_loss.data[0] / batch_size,
+				#nll_loss.data[0] / batch_size))
+				kld_loss.data / batch_size,
+				nll_loss.data / batch_size))
 
-			sample = model.sample(28)
-			plt.imshow(sample.numpy())
+			#sample = model.sample(28)
+			#plt.imshow(sample.numpy())
 			plt.pause(1e-6)
 
-		train_loss += loss.data[0]
+		#train_loss += loss.data[0]
+		train_loss += loss.data
 
 
 	print('====> Epoch: {} Average loss: {:.4f}'.format(
@@ -60,13 +65,16 @@ def test(epoch):
 	mean_kld_loss, mean_nll_loss = 0, 0
 	for i, (data, _) in enumerate(test_loader):                                            
 		
-		#data = Variable(data)
-		data = Variable(data.squeeze().transpose(0, 1))
-		data = (data - data.min().data[0]) / (data.max().data[0] - data.min().data[0])
+		#data = Variable(data)g
+		data = Variable(data.squeeze().transpose(0, 1)).cuda(2)
+		#data = (data - data.min().data[0]) / (data.max().data[0] - data.min().data[0])
+		data = (data - data.min().data) / (data.max().data - data.min().data)
 
 		kld_loss, nll_loss, _, _ = model(data)
-		mean_kld_loss += kld_loss.data[0]
-		mean_nll_loss += nll_loss.data[0]
+		#mean_kld_loss += kld_loss.data[0]
+		#mean_nll_loss += nll_loss.data[0]
+		mean_kld_loss += kld_loss.data
+		mean_nll_loss += nll_loss.data
 
 	mean_kld_loss /= len(test_loader.dataset)
 	mean_nll_loss /= len(test_loader.dataset)
@@ -103,12 +111,13 @@ test_loader = torch.utils.data.DataLoader(
 		transform=transforms.ToTensor()),
     batch_size=batch_size, shuffle=True)
 
-model = VRNN(x_dim, h_dim, z_dim, n_layers)
+model = VRNN(x_dim, h_dim, z_dim, n_layers).cuda(2)
 optimizer = torch.optim.Adam(model.parameters(), lr=learning_rate)
 
 for epoch in range(1, n_epochs + 1):
 	
 	#training + testing
+	print("epoch",epoch)
 	train(epoch)
 	test(epoch)
 

@@ -1,0 +1,810 @@
+epoch 1
+Train Epoch: 1 [0/60000 (0%)]	 KLD Loss: 7.673839 	 NLL Loss: 544.901794
+Train Epoch: 1 [2800/60000 (21%)]	 KLD Loss: 3.659911 	 NLL Loss: 189.039291
+Train Epoch: 1 [5600/60000 (43%)]	 KLD Loss: 2.341690 	 NLL Loss: 134.202835
+Train Epoch: 1 [8400/60000 (64%)]	 KLD Loss: 2.372334 	 NLL Loss: 102.895805
+Train Epoch: 1 [11200/60000 (85%)]	 KLD Loss: 2.453868 	 NLL Loss: 99.180077
+====> Epoch: 1 Average loss: 155.6340
+====> Test set loss: KLD Loss = 2.2711, NLL Loss = 92.8235 
+Saved model to saves/vrnn_state_dict_1.pth
+epoch 2
+Train Epoch: 2 [0/60000 (0%)]	 KLD Loss: 2.375486 	 NLL Loss: 96.560020
+Train Epoch: 2 [2800/60000 (21%)]	 KLD Loss: 2.114777 	 NLL Loss: 88.374092
+Train Epoch: 2 [5600/60000 (43%)]	 KLD Loss: 1.994859 	 NLL Loss: 86.695435
+Train Epoch: 2 [8400/60000 (64%)]	 KLD Loss: 2.107257 	 NLL Loss: 84.693703
+Train Epoch: 2 [11200/60000 (85%)]	 KLD Loss: 2.376496 	 NLL Loss: 85.424164
+====> Epoch: 2 Average loss: 91.8339
+====> Test set loss: KLD Loss = 2.3699, NLL Loss = 85.1088 
+epoch 3
+Train Epoch: 3 [0/60000 (0%)]	 KLD Loss: 2.351073 	 NLL Loss: 82.049019
+Train Epoch: 3 [2800/60000 (21%)]	 KLD Loss: 2.743461 	 NLL Loss: 84.400978
+Train Epoch: 3 [5600/60000 (43%)]	 KLD Loss: 2.795741 	 NLL Loss: 85.899956
+Train Epoch: 3 [8400/60000 (64%)]	 KLD Loss: 2.533390 	 NLL Loss: 81.058136
+Train Epoch: 3 [11200/60000 (85%)]	 KLD Loss: 2.610420 	 NLL Loss: 80.261292
+====> Epoch: 3 Average loss: 86.5003
+====> Test set loss: KLD Loss = 2.7089, NLL Loss = 81.1711 
+epoch 4
+Train Epoch: 4 [0/60000 (0%)]	 KLD Loss: 2.834965 	 NLL Loss: 82.976044
+Train Epoch: 4 [2800/60000 (21%)]	 KLD Loss: 2.619103 	 NLL Loss: 78.761223
+Train Epoch: 4 [5600/60000 (43%)]	 KLD Loss: 2.855123 	 NLL Loss: 85.882622
+Train Epoch: 4 [8400/60000 (64%)]	 KLD Loss: 2.740894 	 NLL Loss: 79.705582
+Train Epoch: 4 [11200/60000 (85%)]	 KLD Loss: 2.999396 	 NLL Loss: 81.938660
+====> Epoch: 4 Average loss: 83.4428
+====> Test set loss: KLD Loss = 2.7967, NLL Loss = 78.9354 
+epoch 5
+Train Epoch: 5 [0/60000 (0%)]	 KLD Loss: 2.831100 	 NLL Loss: 80.174759
+Train Epoch: 5 [2800/60000 (21%)]	 KLD Loss: 3.006497 	 NLL Loss: 76.100441
+Train Epoch: 5 [5600/60000 (43%)]	 KLD Loss: 3.043750 	 NLL Loss: 78.463905
+Train Epoch: 5 [8400/60000 (64%)]	 KLD Loss: 3.100956 	 NLL Loss: 79.237152
+Train Epoch: 5 [11200/60000 (85%)]	 KLD Loss: 2.912504 	 NLL Loss: 78.718834
+====> Epoch: 5 Average loss: 81.4680
+====> Test set loss: KLD Loss = 2.9599, NLL Loss = 77.4715 
+epoch 6
+Train Epoch: 6 [0/60000 (0%)]	 KLD Loss: 2.923645 	 NLL Loss: 77.597389
+Train Epoch: 6 [2800/60000 (21%)]	 KLD Loss: 2.979322 	 NLL Loss: 76.908958
+Train Epoch: 6 [5600/60000 (43%)]	 KLD Loss: 3.142358 	 NLL Loss: 78.558876
+Train Epoch: 6 [8400/60000 (64%)]	 KLD Loss: 2.866180 	 NLL Loss: 77.772499
+Train Epoch: 6 [11200/60000 (85%)]	 KLD Loss: 3.104763 	 NLL Loss: 78.388435
+====> Epoch: 6 Average loss: 80.2376
+====> Test set loss: KLD Loss = 2.9786, NLL Loss = 75.8615 
+epoch 7
+Train Epoch: 7 [0/60000 (0%)]	 KLD Loss: 2.829114 	 NLL Loss: 74.719521
+Train Epoch: 7 [2800/60000 (21%)]	 KLD Loss: 3.035670 	 NLL Loss: 76.100212
+Train Epoch: 7 [5600/60000 (43%)]	 KLD Loss: 2.998484 	 NLL Loss: 76.123070
+Train Epoch: 7 [8400/60000 (64%)]	 KLD Loss: 2.961650 	 NLL Loss: 76.752533
+Train Epoch: 7 [11200/60000 (85%)]	 KLD Loss: 3.392851 	 NLL Loss: 78.207077
+====> Epoch: 7 Average loss: 79.4347
+====> Test set loss: KLD Loss = 3.0146, NLL Loss = 75.0627 
+epoch 8
+Train Epoch: 8 [0/60000 (0%)]	 KLD Loss: 2.990373 	 NLL Loss: 76.062775
+Train Epoch: 8 [2800/60000 (21%)]	 KLD Loss: 3.038307 	 NLL Loss: 77.255318
+Train Epoch: 8 [5600/60000 (43%)]	 KLD Loss: 2.996413 	 NLL Loss: 74.401093
+Train Epoch: 8 [8400/60000 (64%)]	 KLD Loss: 3.195892 	 NLL Loss: 75.864006
+Train Epoch: 8 [11200/60000 (85%)]	 KLD Loss: 2.994074 	 NLL Loss: 75.295891
+====> Epoch: 8 Average loss: 78.5637
+====> Test set loss: KLD Loss = 3.0658, NLL Loss = 74.2687 
+epoch 9
+Train Epoch: 9 [0/60000 (0%)]	 KLD Loss: 3.104838 	 NLL Loss: 73.723831
+Train Epoch: 9 [2800/60000 (21%)]	 KLD Loss: 3.105828 	 NLL Loss: 74.016579
+Train Epoch: 9 [5600/60000 (43%)]	 KLD Loss: 3.245751 	 NLL Loss: 71.473335
+Train Epoch: 9 [8400/60000 (64%)]	 KLD Loss: 3.262636 	 NLL Loss: 71.219856
+Train Epoch: 9 [11200/60000 (85%)]	 KLD Loss: 3.109389 	 NLL Loss: 75.415039
+====> Epoch: 9 Average loss: 78.0528
+====> Test set loss: KLD Loss = 3.1841, NLL Loss = 73.8373 
+epoch 10
+Train Epoch: 10 [0/60000 (0%)]	 KLD Loss: 3.073643 	 NLL Loss: 74.877449
+Train Epoch: 10 [2800/60000 (21%)]	 KLD Loss: 3.137810 	 NLL Loss: 74.085953
+Train Epoch: 10 [5600/60000 (43%)]	 KLD Loss: 3.272680 	 NLL Loss: 76.739990
+Train Epoch: 10 [8400/60000 (64%)]	 KLD Loss: 3.207279 	 NLL Loss: 72.435783
+Train Epoch: 10 [11200/60000 (85%)]	 KLD Loss: 3.339490 	 NLL Loss: 72.492523
+====> Epoch: 10 Average loss: 77.6258
+====> Test set loss: KLD Loss = 3.2964, NLL Loss = 73.3186 
+epoch 11
+Train Epoch: 11 [0/60000 (0%)]	 KLD Loss: 3.424540 	 NLL Loss: 74.724922
+Train Epoch: 11 [2800/60000 (21%)]	 KLD Loss: 3.429384 	 NLL Loss: 76.100639
+Train Epoch: 11 [5600/60000 (43%)]	 KLD Loss: 3.149595 	 NLL Loss: 73.035728
+Train Epoch: 11 [8400/60000 (64%)]	 KLD Loss: 3.014260 	 NLL Loss: 74.908287
+Train Epoch: 11 [11200/60000 (85%)]	 KLD Loss: 3.431717 	 NLL Loss: 75.545517
+====> Epoch: 11 Average loss: 77.0642
+====> Test set loss: KLD Loss = 3.2712, NLL Loss = 73.8035 
+Saved model to saves/vrnn_state_dict_11.pth
+epoch 12
+Train Epoch: 12 [0/60000 (0%)]	 KLD Loss: 3.340638 	 NLL Loss: 74.195595
+Train Epoch: 12 [2800/60000 (21%)]	 KLD Loss: 3.102026 	 NLL Loss: 72.384254
+Train Epoch: 12 [5600/60000 (43%)]	 KLD Loss: 3.085387 	 NLL Loss: 70.944969
+Train Epoch: 12 [8400/60000 (64%)]	 KLD Loss: 3.270162 	 NLL Loss: 71.361671
+Train Epoch: 12 [11200/60000 (85%)]	 KLD Loss: 3.145379 	 NLL Loss: 71.220245
+====> Epoch: 12 Average loss: 76.9175
+====> Test set loss: KLD Loss = 3.2039, NLL Loss = 72.7613 
+epoch 13
+Train Epoch: 13 [0/60000 (0%)]	 KLD Loss: 3.462117 	 NLL Loss: 74.951508
+Train Epoch: 13 [2800/60000 (21%)]	 KLD Loss: 3.435487 	 NLL Loss: 71.856941
+Train Epoch: 13 [5600/60000 (43%)]	 KLD Loss: 3.227907 	 NLL Loss: 72.352585
+Train Epoch: 13 [8400/60000 (64%)]	 KLD Loss: 3.655002 	 NLL Loss: 73.087219
+Train Epoch: 13 [11200/60000 (85%)]	 KLD Loss: 3.283989 	 NLL Loss: 70.043915
+====> Epoch: 13 Average loss: 76.4375
+====> Test set loss: KLD Loss = 3.4169, NLL Loss = 75.2309 
+epoch 14
+Train Epoch: 14 [0/60000 (0%)]	 KLD Loss: 3.445695 	 NLL Loss: 76.123672
+Train Epoch: 14 [2800/60000 (21%)]	 KLD Loss: 3.463233 	 NLL Loss: 72.884560
+Train Epoch: 14 [5600/60000 (43%)]	 KLD Loss: 3.375002 	 NLL Loss: 74.181503
+Train Epoch: 14 [8400/60000 (64%)]	 KLD Loss: 3.403674 	 NLL Loss: 75.851830
+Train Epoch: 14 [11200/60000 (85%)]	 KLD Loss: 3.422534 	 NLL Loss: 73.594223
+====> Epoch: 14 Average loss: 76.3656
+====> Test set loss: KLD Loss = 3.2578, NLL Loss = 72.2635 
+epoch 15
+Train Epoch: 15 [0/60000 (0%)]	 KLD Loss: 3.175892 	 NLL Loss: 70.950508
+Train Epoch: 15 [2800/60000 (21%)]	 KLD Loss: 3.554499 	 NLL Loss: 74.385681
+Train Epoch: 15 [5600/60000 (43%)]	 KLD Loss: 3.357817 	 NLL Loss: 70.955025
+Train Epoch: 15 [8400/60000 (64%)]	 KLD Loss: 3.431602 	 NLL Loss: 70.269516
+Train Epoch: 15 [11200/60000 (85%)]	 KLD Loss: 3.595647 	 NLL Loss: 75.250214
+====> Epoch: 15 Average loss: 76.1545
+====> Test set loss: KLD Loss = 3.3056, NLL Loss = 72.0950 
+epoch 16
+Train Epoch: 16 [0/60000 (0%)]	 KLD Loss: 3.252823 	 NLL Loss: 76.950897
+Train Epoch: 16 [2800/60000 (21%)]	 KLD Loss: 3.458806 	 NLL Loss: 71.830086
+Train Epoch: 16 [5600/60000 (43%)]	 KLD Loss: 3.349691 	 NLL Loss: 73.765007
+Train Epoch: 16 [8400/60000 (64%)]	 KLD Loss: 3.385155 	 NLL Loss: 72.742676
+Train Epoch: 16 [11200/60000 (85%)]	 KLD Loss: 3.538833 	 NLL Loss: 72.149368
+====> Epoch: 16 Average loss: 75.7339
+====> Test set loss: KLD Loss = 3.3895, NLL Loss = 71.6683 
+epoch 17
+Train Epoch: 17 [0/60000 (0%)]	 KLD Loss: 3.560140 	 NLL Loss: 70.740265
+Train Epoch: 17 [2800/60000 (21%)]	 KLD Loss: 3.689338 	 NLL Loss: 74.084549
+Train Epoch: 17 [5600/60000 (43%)]	 KLD Loss: 3.313075 	 NLL Loss: 70.415833
+Train Epoch: 17 [8400/60000 (64%)]	 KLD Loss: 3.570854 	 NLL Loss: 70.237617
+Train Epoch: 17 [11200/60000 (85%)]	 KLD Loss: 3.536773 	 NLL Loss: 69.112907
+====> Epoch: 17 Average loss: 75.6543
+====> Test set loss: KLD Loss = 3.4249, NLL Loss = 71.4348 
+epoch 18
+Train Epoch: 18 [0/60000 (0%)]	 KLD Loss: 3.237446 	 NLL Loss: 71.549126
+Train Epoch: 18 [2800/60000 (21%)]	 KLD Loss: 3.395011 	 NLL Loss: 69.995033
+Train Epoch: 18 [5600/60000 (43%)]	 KLD Loss: 3.569374 	 NLL Loss: 72.839653
+Train Epoch: 18 [8400/60000 (64%)]	 KLD Loss: 3.682507 	 NLL Loss: 71.486893
+Train Epoch: 18 [11200/60000 (85%)]	 KLD Loss: 3.574900 	 NLL Loss: 73.510849
+====> Epoch: 18 Average loss: 75.4191
+====> Test set loss: KLD Loss = 3.4645, NLL Loss = 71.2536 
+epoch 19
+Train Epoch: 19 [0/60000 (0%)]	 KLD Loss: 3.488788 	 NLL Loss: 74.911446
+Train Epoch: 19 [2800/60000 (21%)]	 KLD Loss: 3.606258 	 NLL Loss: 72.200851
+Train Epoch: 19 [5600/60000 (43%)]	 KLD Loss: 3.516596 	 NLL Loss: 69.954384
+Train Epoch: 19 [8400/60000 (64%)]	 KLD Loss: 3.605911 	 NLL Loss: 71.750801
+Train Epoch: 19 [11200/60000 (85%)]	 KLD Loss: 4.063869 	 NLL Loss: 76.400505
+====> Epoch: 19 Average loss: 75.2728
+====> Test set loss: KLD Loss = 3.5778, NLL Loss = 71.1195 
+epoch 20
+Train Epoch: 20 [0/60000 (0%)]	 KLD Loss: 3.680666 	 NLL Loss: 72.241592
+Train Epoch: 20 [2800/60000 (21%)]	 KLD Loss: 3.408943 	 NLL Loss: 72.224724
+Train Epoch: 20 [5600/60000 (43%)]	 KLD Loss: 3.309396 	 NLL Loss: 69.212303
+Train Epoch: 20 [8400/60000 (64%)]	 KLD Loss: 3.675856 	 NLL Loss: 71.538994
+Train Epoch: 20 [11200/60000 (85%)]	 KLD Loss: 3.771865 	 NLL Loss: 71.667969
+====> Epoch: 20 Average loss: 75.0572
+====> Test set loss: KLD Loss = 3.6207, NLL Loss = 71.2171 
+epoch 21
+Train Epoch: 21 [0/60000 (0%)]	 KLD Loss: 3.786373 	 NLL Loss: 72.569763
+Train Epoch: 21 [2800/60000 (21%)]	 KLD Loss: 3.777600 	 NLL Loss: 70.731300
+Train Epoch: 21 [5600/60000 (43%)]	 KLD Loss: 3.434806 	 NLL Loss: 72.176735
+Train Epoch: 21 [8400/60000 (64%)]	 KLD Loss: 3.390417 	 NLL Loss: 70.481598
+Train Epoch: 21 [11200/60000 (85%)]	 KLD Loss: 3.394289 	 NLL Loss: 68.669724
+====> Epoch: 21 Average loss: 74.7894
+====> Test set loss: KLD Loss = 3.3981, NLL Loss = 70.8156 
+Saved model to saves/vrnn_state_dict_21.pth
+epoch 22
+Train Epoch: 22 [0/60000 (0%)]	 KLD Loss: 3.310161 	 NLL Loss: 67.685303
+Train Epoch: 22 [2800/60000 (21%)]	 KLD Loss: 3.410433 	 NLL Loss: 69.069687
+Train Epoch: 22 [5600/60000 (43%)]	 KLD Loss: 3.415758 	 NLL Loss: 71.628654
+Train Epoch: 22 [8400/60000 (64%)]	 KLD Loss: 3.522111 	 NLL Loss: 67.646759
+Train Epoch: 22 [11200/60000 (85%)]	 KLD Loss: 3.443071 	 NLL Loss: 70.941490
+====> Epoch: 22 Average loss: 74.6670
+====> Test set loss: KLD Loss = 3.5047, NLL Loss = 70.6520 
+epoch 23
+Train Epoch: 23 [0/60000 (0%)]	 KLD Loss: 3.498385 	 NLL Loss: 71.083435
+Train Epoch: 23 [2800/60000 (21%)]	 KLD Loss: 3.501592 	 NLL Loss: 71.737740
+Train Epoch: 23 [5600/60000 (43%)]	 KLD Loss: 3.626055 	 NLL Loss: 70.183334
+Train Epoch: 23 [8400/60000 (64%)]	 KLD Loss: 3.916138 	 NLL Loss: 72.953934
+Train Epoch: 23 [11200/60000 (85%)]	 KLD Loss: 3.775228 	 NLL Loss: 71.655846
+====> Epoch: 23 Average loss: 75.1411
+====> Test set loss: KLD Loss = 3.5837, NLL Loss = 70.9983 
+epoch 24
+Train Epoch: 24 [0/60000 (0%)]	 KLD Loss: 3.792613 	 NLL Loss: 70.955055
+Train Epoch: 24 [2800/60000 (21%)]	 KLD Loss: 3.564938 	 NLL Loss: 72.847351
+Train Epoch: 24 [5600/60000 (43%)]	 KLD Loss: 3.300338 	 NLL Loss: 68.993622
+Train Epoch: 24 [8400/60000 (64%)]	 KLD Loss: 3.852111 	 NLL Loss: 71.183319
+Train Epoch: 24 [11200/60000 (85%)]	 KLD Loss: 3.522528 	 NLL Loss: 70.987244
+====> Epoch: 24 Average loss: 74.6689
+====> Test set loss: KLD Loss = 3.5372, NLL Loss = 70.5013 
+epoch 25
+Train Epoch: 25 [0/60000 (0%)]	 KLD Loss: 3.440850 	 NLL Loss: 72.457985
+Train Epoch: 25 [2800/60000 (21%)]	 KLD Loss: 3.391117 	 NLL Loss: 69.066841
+Train Epoch: 25 [5600/60000 (43%)]	 KLD Loss: 3.599782 	 NLL Loss: 72.643333
+Train Epoch: 25 [8400/60000 (64%)]	 KLD Loss: 3.511332 	 NLL Loss: 72.809402
+Train Epoch: 25 [11200/60000 (85%)]	 KLD Loss: 3.511385 	 NLL Loss: 70.125015
+====> Epoch: 25 Average loss: 74.5256
+====> Test set loss: KLD Loss = 3.4885, NLL Loss = 70.3233 
+epoch 26
+Train Epoch: 26 [0/60000 (0%)]	 KLD Loss: 3.438510 	 NLL Loss: 70.846863
+Train Epoch: 26 [2800/60000 (21%)]	 KLD Loss: 3.578765 	 NLL Loss: 70.634155
+Train Epoch: 26 [5600/60000 (43%)]	 KLD Loss: 3.743508 	 NLL Loss: 72.370415
+Train Epoch: 26 [8400/60000 (64%)]	 KLD Loss: 3.554852 	 NLL Loss: 69.597816
+Train Epoch: 26 [11200/60000 (85%)]	 KLD Loss: 3.621146 	 NLL Loss: 70.768517
+====> Epoch: 26 Average loss: 74.1738
+====> Test set loss: KLD Loss = 3.5720, NLL Loss = 70.1243 
+epoch 27
+Train Epoch: 27 [0/60000 (0%)]	 KLD Loss: 3.489607 	 NLL Loss: 70.070801
+Train Epoch: 27 [2800/60000 (21%)]	 KLD Loss: 3.508492 	 NLL Loss: 71.386238
+Train Epoch: 27 [5600/60000 (43%)]	 KLD Loss: 3.487553 	 NLL Loss: 70.504883
+Train Epoch: 27 [8400/60000 (64%)]	 KLD Loss: 3.819631 	 NLL Loss: 71.959450
+Train Epoch: 27 [11200/60000 (85%)]	 KLD Loss: 3.487495 	 NLL Loss: 68.339935
+====> Epoch: 27 Average loss: 75.1775
+====> Test set loss: KLD Loss = 3.7125, NLL Loss = 70.1986 
+epoch 28
+Train Epoch: 28 [0/60000 (0%)]	 KLD Loss: 3.724040 	 NLL Loss: 72.197876
+Train Epoch: 28 [2800/60000 (21%)]	 KLD Loss: 3.731989 	 NLL Loss: 74.868584
+Train Epoch: 28 [5600/60000 (43%)]	 KLD Loss: 3.439502 	 NLL Loss: 67.622040
+Train Epoch: 28 [8400/60000 (64%)]	 KLD Loss: 3.469208 	 NLL Loss: 66.958878
+Train Epoch: 28 [11200/60000 (85%)]	 KLD Loss: 3.599498 	 NLL Loss: 71.696327
+====> Epoch: 28 Average loss: 74.0726
+====> Test set loss: KLD Loss = 3.6434, NLL Loss = 69.9062 
+epoch 29
+Train Epoch: 29 [0/60000 (0%)]	 KLD Loss: 3.714827 	 NLL Loss: 69.515518
+Train Epoch: 29 [2800/60000 (21%)]	 KLD Loss: 3.720575 	 NLL Loss: 68.446579
+Train Epoch: 29 [5600/60000 (43%)]	 KLD Loss: 3.600969 	 NLL Loss: 68.735352
+Train Epoch: 29 [8400/60000 (64%)]	 KLD Loss: 3.485497 	 NLL Loss: 69.733124
+Train Epoch: 29 [11200/60000 (85%)]	 KLD Loss: 3.566235 	 NLL Loss: 70.209480
+====> Epoch: 29 Average loss: 73.8550
+====> Test set loss: KLD Loss = 3.5149, NLL Loss = 69.8636 
+epoch 30
+Train Epoch: 30 [0/60000 (0%)]	 KLD Loss: 3.587029 	 NLL Loss: 72.748474
+Train Epoch: 30 [2800/60000 (21%)]	 KLD Loss: 3.384336 	 NLL Loss: 69.984619
+Train Epoch: 30 [5600/60000 (43%)]	 KLD Loss: 3.572183 	 NLL Loss: 69.533783
+Train Epoch: 30 [8400/60000 (64%)]	 KLD Loss: 3.731445 	 NLL Loss: 68.475029
+Train Epoch: 30 [11200/60000 (85%)]	 KLD Loss: 3.545670 	 NLL Loss: 68.847054
+====> Epoch: 30 Average loss: 73.7745
+====> Test set loss: KLD Loss = 3.5575, NLL Loss = 69.9310 
+epoch 31
+Train Epoch: 31 [0/60000 (0%)]	 KLD Loss: 3.509693 	 NLL Loss: 72.820755
+Train Epoch: 31 [2800/60000 (21%)]	 KLD Loss: 3.403856 	 NLL Loss: 71.213326
+Train Epoch: 31 [5600/60000 (43%)]	 KLD Loss: 3.527553 	 NLL Loss: 69.406624
+Train Epoch: 31 [8400/60000 (64%)]	 KLD Loss: 3.522960 	 NLL Loss: 70.355118
+Train Epoch: 31 [11200/60000 (85%)]	 KLD Loss: 3.584550 	 NLL Loss: 70.974182
+====> Epoch: 31 Average loss: 73.7353
+====> Test set loss: KLD Loss = 3.6195, NLL Loss = 69.8183 
+Saved model to saves/vrnn_state_dict_31.pth
+epoch 32
+Train Epoch: 32 [0/60000 (0%)]	 KLD Loss: 3.594055 	 NLL Loss: 70.407784
+Train Epoch: 32 [2800/60000 (21%)]	 KLD Loss: 3.873033 	 NLL Loss: 72.510750
+Train Epoch: 32 [5600/60000 (43%)]	 KLD Loss: 3.453171 	 NLL Loss: 72.704735
+Train Epoch: 32 [8400/60000 (64%)]	 KLD Loss: 3.513349 	 NLL Loss: 69.549583
+Train Epoch: 32 [11200/60000 (85%)]	 KLD Loss: 3.742406 	 NLL Loss: 67.834076
+====> Epoch: 32 Average loss: 74.1275
+====> Test set loss: KLD Loss = 3.5933, NLL Loss = 69.8276 
+epoch 33
+Train Epoch: 33 [0/60000 (0%)]	 KLD Loss: 3.584554 	 NLL Loss: 68.648560
+Train Epoch: 33 [2800/60000 (21%)]	 KLD Loss: 3.503158 	 NLL Loss: 72.060669
+Train Epoch: 33 [5600/60000 (43%)]	 KLD Loss: 3.666331 	 NLL Loss: 71.769913
+Train Epoch: 33 [8400/60000 (64%)]	 KLD Loss: 3.595193 	 NLL Loss: 72.755898
+Train Epoch: 33 [11200/60000 (85%)]	 KLD Loss: 3.709730 	 NLL Loss: 68.101631
+====> Epoch: 33 Average loss: 73.9893
+====> Test set loss: KLD Loss = 3.6045, NLL Loss = 69.5962 
+epoch 34
+Train Epoch: 34 [0/60000 (0%)]	 KLD Loss: 3.570310 	 NLL Loss: 68.537025
+Train Epoch: 34 [2800/60000 (21%)]	 KLD Loss: 3.777635 	 NLL Loss: 67.886848
+Train Epoch: 34 [5600/60000 (43%)]	 KLD Loss: 3.922955 	 NLL Loss: 71.328819
+Train Epoch: 34 [8400/60000 (64%)]	 KLD Loss: 3.635625 	 NLL Loss: 71.968468
+Train Epoch: 34 [11200/60000 (85%)]	 KLD Loss: 3.856800 	 NLL Loss: 73.845917
+====> Epoch: 34 Average loss: 73.7402
+====> Test set loss: KLD Loss = 3.7625, NLL Loss = 69.9960 
+epoch 35
+Train Epoch: 35 [0/60000 (0%)]	 KLD Loss: 3.853458 	 NLL Loss: 72.144371
+Train Epoch: 35 [2800/60000 (21%)]	 KLD Loss: 3.505343 	 NLL Loss: 68.152382
+Train Epoch: 35 [5600/60000 (43%)]	 KLD Loss: 4.108519 	 NLL Loss: 69.939377
+Train Epoch: 35 [8400/60000 (64%)]	 KLD Loss: 3.844175 	 NLL Loss: 69.866043
+Train Epoch: 35 [11200/60000 (85%)]	 KLD Loss: 4.006631 	 NLL Loss: 69.141533
+====> Epoch: 35 Average loss: 73.3414
+====> Test set loss: KLD Loss = 3.7472, NLL Loss = 69.2288 
+epoch 36
+Train Epoch: 36 [0/60000 (0%)]	 KLD Loss: 3.892011 	 NLL Loss: 69.426933
+Train Epoch: 36 [2800/60000 (21%)]	 KLD Loss: 3.629061 	 NLL Loss: 72.735855
+Train Epoch: 36 [5600/60000 (43%)]	 KLD Loss: 3.776256 	 NLL Loss: 66.058815
+Train Epoch: 36 [8400/60000 (64%)]	 KLD Loss: 3.640076 	 NLL Loss: 67.951012
+Train Epoch: 36 [11200/60000 (85%)]	 KLD Loss: 3.903026 	 NLL Loss: 69.388733
+====> Epoch: 36 Average loss: 73.2828
+====> Test set loss: KLD Loss = 3.9079, NLL Loss = 69.4702 
+epoch 37
+Train Epoch: 37 [0/60000 (0%)]	 KLD Loss: 3.861627 	 NLL Loss: 68.120804
+Train Epoch: 37 [2800/60000 (21%)]	 KLD Loss: 3.982739 	 NLL Loss: 71.360756
+Train Epoch: 37 [5600/60000 (43%)]	 KLD Loss: 3.814439 	 NLL Loss: 71.413918
+Train Epoch: 37 [8400/60000 (64%)]	 KLD Loss: 3.600070 	 NLL Loss: 69.817024
+Train Epoch: 37 [11200/60000 (85%)]	 KLD Loss: 3.845444 	 NLL Loss: 70.282875
+====> Epoch: 37 Average loss: 73.9950
+====> Test set loss: KLD Loss = 3.6347, NLL Loss = 69.2278 
+epoch 38
+Train Epoch: 38 [0/60000 (0%)]	 KLD Loss: 3.612186 	 NLL Loss: 67.241051
+Train Epoch: 38 [2800/60000 (21%)]	 KLD Loss: 3.950156 	 NLL Loss: 68.010574
+Train Epoch: 38 [5600/60000 (43%)]	 KLD Loss: 4.018854 	 NLL Loss: 70.634140
+Train Epoch: 38 [8400/60000 (64%)]	 KLD Loss: 3.937832 	 NLL Loss: 70.472130
+Train Epoch: 38 [11200/60000 (85%)]	 KLD Loss: 3.840110 	 NLL Loss: 68.305473
+====> Epoch: 38 Average loss: 73.0765
+====> Test set loss: KLD Loss = 4.0911, NLL Loss = 68.8397 
+epoch 39
+Train Epoch: 39 [0/60000 (0%)]	 KLD Loss: 4.164297 	 NLL Loss: 70.143494
+Train Epoch: 39 [2800/60000 (21%)]	 KLD Loss: 3.963388 	 NLL Loss: 68.604469
+Train Epoch: 39 [5600/60000 (43%)]	 KLD Loss: 3.905658 	 NLL Loss: 68.173637
+Train Epoch: 39 [8400/60000 (64%)]	 KLD Loss: 3.871396 	 NLL Loss: 67.641281
+Train Epoch: 39 [11200/60000 (85%)]	 KLD Loss: 4.237041 	 NLL Loss: 68.988022
+====> Epoch: 39 Average loss: 73.4547
+====> Test set loss: KLD Loss = 3.9083, NLL Loss = 69.2992 
+epoch 40
+Train Epoch: 40 [0/60000 (0%)]	 KLD Loss: 3.980715 	 NLL Loss: 68.875694
+Train Epoch: 40 [2800/60000 (21%)]	 KLD Loss: 4.028626 	 NLL Loss: 68.119987
+Train Epoch: 40 [5600/60000 (43%)]	 KLD Loss: 3.913452 	 NLL Loss: 67.695953
+Train Epoch: 40 [8400/60000 (64%)]	 KLD Loss: 3.920936 	 NLL Loss: 66.794136
+Train Epoch: 40 [11200/60000 (85%)]	 KLD Loss: 4.090099 	 NLL Loss: 67.892166
+====> Epoch: 40 Average loss: 72.9943
+====> Test set loss: KLD Loss = 4.1627, NLL Loss = 68.5334 
+epoch 41
+Train Epoch: 41 [0/60000 (0%)]	 KLD Loss: 4.389514 	 NLL Loss: 70.820343
+Train Epoch: 41 [2800/60000 (21%)]	 KLD Loss: 4.194871 	 NLL Loss: 70.025665
+Train Epoch: 41 [5600/60000 (43%)]	 KLD Loss: 3.903264 	 NLL Loss: 68.886261
+Train Epoch: 41 [8400/60000 (64%)]	 KLD Loss: 4.063946 	 NLL Loss: 69.133652
+Train Epoch: 41 [11200/60000 (85%)]	 KLD Loss: 4.252975 	 NLL Loss: 68.529564
+====> Epoch: 41 Average loss: 72.8611
+====> Test set loss: KLD Loss = 3.8875, NLL Loss = 68.5891 
+Saved model to saves/vrnn_state_dict_41.pth
+epoch 42
+Train Epoch: 42 [0/60000 (0%)]	 KLD Loss: 3.848847 	 NLL Loss: 66.298759
+Train Epoch: 42 [2800/60000 (21%)]	 KLD Loss: 4.088690 	 NLL Loss: 67.284096
+Train Epoch: 42 [5600/60000 (43%)]	 KLD Loss: 3.953958 	 NLL Loss: 68.265663
+Train Epoch: 42 [8400/60000 (64%)]	 KLD Loss: 3.916675 	 NLL Loss: 66.546745
+Train Epoch: 42 [11200/60000 (85%)]	 KLD Loss: 3.958776 	 NLL Loss: 70.029114
+====> Epoch: 42 Average loss: 72.9079
+====> Test set loss: KLD Loss = 3.8767, NLL Loss = 68.4975 
+epoch 43
+Train Epoch: 43 [0/60000 (0%)]	 KLD Loss: 4.011678 	 NLL Loss: 69.679779
+Train Epoch: 43 [2800/60000 (21%)]	 KLD Loss: 4.063246 	 NLL Loss: 67.278160
+Train Epoch: 43 [5600/60000 (43%)]	 KLD Loss: 4.263030 	 NLL Loss: 67.796921
+Train Epoch: 43 [8400/60000 (64%)]	 KLD Loss: 4.013532 	 NLL Loss: 69.520187
+Train Epoch: 43 [11200/60000 (85%)]	 KLD Loss: 4.063638 	 NLL Loss: 67.825729
+====> Epoch: 43 Average loss: 73.1894
+====> Test set loss: KLD Loss = 4.1671, NLL Loss = 68.6473 
+epoch 44
+Train Epoch: 44 [0/60000 (0%)]	 KLD Loss: 4.214784 	 NLL Loss: 70.107048
+Train Epoch: 44 [2800/60000 (21%)]	 KLD Loss: 4.222667 	 NLL Loss: 67.195007
+Train Epoch: 44 [5600/60000 (43%)]	 KLD Loss: 3.836303 	 NLL Loss: 68.767799
+Train Epoch: 44 [8400/60000 (64%)]	 KLD Loss: 3.653973 	 NLL Loss: 69.199867
+Train Epoch: 44 [11200/60000 (85%)]	 KLD Loss: 4.241689 	 NLL Loss: 67.321259
+====> Epoch: 44 Average loss: 72.6128
+====> Test set loss: KLD Loss = 4.0587, NLL Loss = 68.4519 
+epoch 45
+Train Epoch: 45 [0/60000 (0%)]	 KLD Loss: 4.110335 	 NLL Loss: 68.981453
+Train Epoch: 45 [2800/60000 (21%)]	 KLD Loss: 4.429811 	 NLL Loss: 68.442467
+Train Epoch: 45 [5600/60000 (43%)]	 KLD Loss: 4.041792 	 NLL Loss: 66.415985
+Train Epoch: 45 [8400/60000 (64%)]	 KLD Loss: 4.086432 	 NLL Loss: 67.801178
+Train Epoch: 45 [11200/60000 (85%)]	 KLD Loss: 4.292593 	 NLL Loss: 69.386314
+====> Epoch: 45 Average loss: 72.6476
+====> Test set loss: KLD Loss = 4.1117, NLL Loss = 68.4082 
+epoch 46
+Train Epoch: 46 [0/60000 (0%)]	 KLD Loss: 4.055811 	 NLL Loss: 66.882629
+Train Epoch: 46 [2800/60000 (21%)]	 KLD Loss: 4.039513 	 NLL Loss: 68.367355
+Train Epoch: 46 [5600/60000 (43%)]	 KLD Loss: 4.045394 	 NLL Loss: 64.197235
+Train Epoch: 46 [8400/60000 (64%)]	 KLD Loss: 4.133261 	 NLL Loss: 69.273788
+Train Epoch: 46 [11200/60000 (85%)]	 KLD Loss: 4.112753 	 NLL Loss: 72.633835
+====> Epoch: 46 Average loss: 72.6145
+====> Test set loss: KLD Loss = 4.0722, NLL Loss = 68.2299 
+epoch 47
+Train Epoch: 47 [0/60000 (0%)]	 KLD Loss: 3.977060 	 NLL Loss: 70.823555
+Train Epoch: 47 [2800/60000 (21%)]	 KLD Loss: 4.220802 	 NLL Loss: 68.942238
+Train Epoch: 47 [5600/60000 (43%)]	 KLD Loss: 3.931435 	 NLL Loss: 68.766838
+Train Epoch: 47 [8400/60000 (64%)]	 KLD Loss: 4.107506 	 NLL Loss: 68.530945
+Train Epoch: 47 [11200/60000 (85%)]	 KLD Loss: 3.917273 	 NLL Loss: 69.360107
+====> Epoch: 47 Average loss: 72.7867
+====> Test set loss: KLD Loss = 4.1305, NLL Loss = 68.4225 
+epoch 48
+Train Epoch: 48 [0/60000 (0%)]	 KLD Loss: 4.065731 	 NLL Loss: 66.826622
+Train Epoch: 48 [2800/60000 (21%)]	 KLD Loss: 3.888823 	 NLL Loss: 71.055984
+Train Epoch: 48 [5600/60000 (43%)]	 KLD Loss: 4.157196 	 NLL Loss: 70.699158
+Train Epoch: 48 [8400/60000 (64%)]	 KLD Loss: 4.130447 	 NLL Loss: 69.216896
+Train Epoch: 48 [11200/60000 (85%)]	 KLD Loss: 4.031219 	 NLL Loss: 69.163712
+====> Epoch: 48 Average loss: 72.4208
+====> Test set loss: KLD Loss = 4.1969, NLL Loss = 68.0071 
+epoch 49
+Train Epoch: 49 [0/60000 (0%)]	 KLD Loss: 4.260202 	 NLL Loss: 68.827957
+Train Epoch: 49 [2800/60000 (21%)]	 KLD Loss: 4.272600 	 NLL Loss: 69.368607
+Train Epoch: 49 [5600/60000 (43%)]	 KLD Loss: 4.238812 	 NLL Loss: 70.204567
+Train Epoch: 49 [8400/60000 (64%)]	 KLD Loss: 4.124441 	 NLL Loss: 69.342705
+Train Epoch: 49 [11200/60000 (85%)]	 KLD Loss: 4.356029 	 NLL Loss: 68.822784
+====> Epoch: 49 Average loss: 72.3328
+====> Test set loss: KLD Loss = 4.1276, NLL Loss = 68.0185 
+epoch 50
+Train Epoch: 50 [0/60000 (0%)]	 KLD Loss: 3.883534 	 NLL Loss: 62.081276
+Train Epoch: 50 [2800/60000 (21%)]	 KLD Loss: 3.950498 	 NLL Loss: 70.600555
+Train Epoch: 50 [5600/60000 (43%)]	 KLD Loss: 3.921807 	 NLL Loss: 70.628098
+Train Epoch: 50 [8400/60000 (64%)]	 KLD Loss: 4.105774 	 NLL Loss: 71.216927
+Train Epoch: 50 [11200/60000 (85%)]	 KLD Loss: 4.087642 	 NLL Loss: 66.393494
+====> Epoch: 50 Average loss: 72.4364
+====> Test set loss: KLD Loss = 4.7341, NLL Loss = 74.5872 
+epoch 51
+Train Epoch: 51 [0/60000 (0%)]	 KLD Loss: 4.972571 	 NLL Loss: 73.469727
+Train Epoch: 51 [2800/60000 (21%)]	 KLD Loss: 4.608854 	 NLL Loss: 72.188217
+Train Epoch: 51 [5600/60000 (43%)]	 KLD Loss: 3.918598 	 NLL Loss: 67.339630
+Train Epoch: 51 [8400/60000 (64%)]	 KLD Loss: 4.109402 	 NLL Loss: 67.871758
+Train Epoch: 51 [11200/60000 (85%)]	 KLD Loss: 4.224061 	 NLL Loss: 69.306145
+====> Epoch: 51 Average loss: 73.6372
+====> Test set loss: KLD Loss = 4.2599, NLL Loss = 68.0173 
+Saved model to saves/vrnn_state_dict_51.pth
+epoch 52
+Train Epoch: 52 [0/60000 (0%)]	 KLD Loss: 4.305256 	 NLL Loss: 68.287552
+Train Epoch: 52 [2800/60000 (21%)]	 KLD Loss: 4.506125 	 NLL Loss: 68.601654
+Train Epoch: 52 [5600/60000 (43%)]	 KLD Loss: 4.234365 	 NLL Loss: 68.735214
+Train Epoch: 52 [8400/60000 (64%)]	 KLD Loss: 4.095445 	 NLL Loss: 69.058319
+Train Epoch: 52 [11200/60000 (85%)]	 KLD Loss: 4.228045 	 NLL Loss: 67.139442
+====> Epoch: 52 Average loss: 72.3972
+====> Test set loss: KLD Loss = 4.2768, NLL Loss = 67.9170 
+epoch 53
+Train Epoch: 53 [0/60000 (0%)]	 KLD Loss: 4.527393 	 NLL Loss: 70.039162
+Train Epoch: 53 [2800/60000 (21%)]	 KLD Loss: 4.343869 	 NLL Loss: 69.354561
+Train Epoch: 53 [5600/60000 (43%)]	 KLD Loss: 4.310507 	 NLL Loss: 67.848915
+Train Epoch: 53 [8400/60000 (64%)]	 KLD Loss: 4.105878 	 NLL Loss: 66.321594
+Train Epoch: 53 [11200/60000 (85%)]	 KLD Loss: 4.403388 	 NLL Loss: 72.949089
+====> Epoch: 53 Average loss: 72.2841
+====> Test set loss: KLD Loss = 4.1397, NLL Loss = 67.9204 
+epoch 54
+Train Epoch: 54 [0/60000 (0%)]	 KLD Loss: 3.989944 	 NLL Loss: 69.020576
+Train Epoch: 54 [2800/60000 (21%)]	 KLD Loss: 4.019674 	 NLL Loss: 69.143852
+Train Epoch: 54 [5600/60000 (43%)]	 KLD Loss: 4.168359 	 NLL Loss: 67.742783
+Train Epoch: 54 [8400/60000 (64%)]	 KLD Loss: 4.383124 	 NLL Loss: 70.042473
+Train Epoch: 54 [11200/60000 (85%)]	 KLD Loss: 3.820976 	 NLL Loss: 66.339867
+====> Epoch: 54 Average loss: 72.1229
+====> Test set loss: KLD Loss = 4.1109, NLL Loss = 67.7548 
+epoch 55
+Train Epoch: 55 [0/60000 (0%)]	 KLD Loss: 3.966446 	 NLL Loss: 68.399117
+Train Epoch: 55 [2800/60000 (21%)]	 KLD Loss: 3.945971 	 NLL Loss: 68.239616
+Train Epoch: 55 [5600/60000 (43%)]	 KLD Loss: 4.064269 	 NLL Loss: 70.407410
+Train Epoch: 55 [8400/60000 (64%)]	 KLD Loss: 4.487037 	 NLL Loss: 71.026581
+Train Epoch: 55 [11200/60000 (85%)]	 KLD Loss: 4.149854 	 NLL Loss: 70.611450
+====> Epoch: 55 Average loss: 72.4980
+====> Test set loss: KLD Loss = 4.0255, NLL Loss = 67.9971 
+epoch 56
+Train Epoch: 56 [0/60000 (0%)]	 KLD Loss: 4.092324 	 NLL Loss: 67.268158
+Train Epoch: 56 [2800/60000 (21%)]	 KLD Loss: 4.217915 	 NLL Loss: 65.910683
+Train Epoch: 56 [5600/60000 (43%)]	 KLD Loss: 4.144059 	 NLL Loss: 66.632240
+Train Epoch: 56 [8400/60000 (64%)]	 KLD Loss: 3.927799 	 NLL Loss: 68.520287
+Train Epoch: 56 [11200/60000 (85%)]	 KLD Loss: 4.392879 	 NLL Loss: 70.167007
+====> Epoch: 56 Average loss: 72.3644
+====> Test set loss: KLD Loss = 4.1226, NLL Loss = 67.7197 
+epoch 57
+Train Epoch: 57 [0/60000 (0%)]	 KLD Loss: 4.310268 	 NLL Loss: 67.328285
+Train Epoch: 57 [2800/60000 (21%)]	 KLD Loss: 4.228770 	 NLL Loss: 73.345001
+Train Epoch: 57 [5600/60000 (43%)]	 KLD Loss: 4.098263 	 NLL Loss: 69.365021
+Train Epoch: 57 [8400/60000 (64%)]	 KLD Loss: 4.027725 	 NLL Loss: 67.983109
+Train Epoch: 57 [11200/60000 (85%)]	 KLD Loss: 4.199824 	 NLL Loss: 67.854004
+====> Epoch: 57 Average loss: 73.8016
+====> Test set loss: KLD Loss = 4.1719, NLL Loss = 68.3392 
+epoch 58
+Train Epoch: 58 [0/60000 (0%)]	 KLD Loss: 4.127944 	 NLL Loss: 69.613991
+Train Epoch: 58 [2800/60000 (21%)]	 KLD Loss: 4.291103 	 NLL Loss: 69.341026
+Train Epoch: 58 [5600/60000 (43%)]	 KLD Loss: 3.855647 	 NLL Loss: 66.957458
+Train Epoch: 58 [8400/60000 (64%)]	 KLD Loss: 4.005843 	 NLL Loss: 69.660744
+Train Epoch: 58 [11200/60000 (85%)]	 KLD Loss: 4.187597 	 NLL Loss: 68.112320
+====> Epoch: 58 Average loss: 72.5116
+====> Test set loss: KLD Loss = 4.1775, NLL Loss = 67.9081 
+epoch 59
+Train Epoch: 59 [0/60000 (0%)]	 KLD Loss: 3.935473 	 NLL Loss: 67.767860
+Train Epoch: 59 [2800/60000 (21%)]	 KLD Loss: 4.111361 	 NLL Loss: 68.831444
+Train Epoch: 59 [5600/60000 (43%)]	 KLD Loss: 4.262942 	 NLL Loss: 72.214119
+Train Epoch: 59 [8400/60000 (64%)]	 KLD Loss: 3.757460 	 NLL Loss: 66.260307
+Train Epoch: 59 [11200/60000 (85%)]	 KLD Loss: 4.156498 	 NLL Loss: 66.778748
+====> Epoch: 59 Average loss: 72.1565
+====> Test set loss: KLD Loss = 4.0973, NLL Loss = 68.0226 
+epoch 60
+Train Epoch: 60 [0/60000 (0%)]	 KLD Loss: 4.414776 	 NLL Loss: 70.658005
+Train Epoch: 60 [2800/60000 (21%)]	 KLD Loss: 3.975352 	 NLL Loss: 63.153877
+Train Epoch: 60 [5600/60000 (43%)]	 KLD Loss: 4.235875 	 NLL Loss: 65.498055
+Train Epoch: 60 [8400/60000 (64%)]	 KLD Loss: 4.143252 	 NLL Loss: 66.895325
+Train Epoch: 60 [11200/60000 (85%)]	 KLD Loss: 4.246643 	 NLL Loss: 70.135551
+====> Epoch: 60 Average loss: 72.1683
+====> Test set loss: KLD Loss = 4.1412, NLL Loss = 67.7781 
+epoch 61
+Train Epoch: 61 [0/60000 (0%)]	 KLD Loss: 4.351241 	 NLL Loss: 70.530525
+Train Epoch: 61 [2800/60000 (21%)]	 KLD Loss: 4.264639 	 NLL Loss: 68.495865
+Train Epoch: 61 [5600/60000 (43%)]	 KLD Loss: 3.973693 	 NLL Loss: 66.182755
+Train Epoch: 61 [8400/60000 (64%)]	 KLD Loss: 4.116611 	 NLL Loss: 66.561951
+Train Epoch: 61 [11200/60000 (85%)]	 KLD Loss: 4.191192 	 NLL Loss: 66.300270
+====> Epoch: 61 Average loss: 71.9049
+====> Test set loss: KLD Loss = 4.0834, NLL Loss = 67.6917 
+Saved model to saves/vrnn_state_dict_61.pth
+epoch 62
+Train Epoch: 62 [0/60000 (0%)]	 KLD Loss: 4.093607 	 NLL Loss: 72.738472
+Train Epoch: 62 [2800/60000 (21%)]	 KLD Loss: 3.977095 	 NLL Loss: 71.539795
+Train Epoch: 62 [5600/60000 (43%)]	 KLD Loss: 4.283662 	 NLL Loss: 69.160866
+Train Epoch: 62 [8400/60000 (64%)]	 KLD Loss: 4.055266 	 NLL Loss: 68.323174
+Train Epoch: 62 [11200/60000 (85%)]	 KLD Loss: 4.403160 	 NLL Loss: 67.399590
+====> Epoch: 62 Average loss: 71.9293
+====> Test set loss: KLD Loss = 4.2193, NLL Loss = 67.8365 
+epoch 63
+Train Epoch: 63 [0/60000 (0%)]	 KLD Loss: 4.151668 	 NLL Loss: 68.932671
+Train Epoch: 63 [2800/60000 (21%)]	 KLD Loss: 4.058837 	 NLL Loss: 67.370010
+Train Epoch: 63 [5600/60000 (43%)]	 KLD Loss: 3.926913 	 NLL Loss: 68.775009
+Train Epoch: 63 [8400/60000 (64%)]	 KLD Loss: 4.122081 	 NLL Loss: 66.243439
+Train Epoch: 63 [11200/60000 (85%)]	 KLD Loss: 4.341866 	 NLL Loss: 68.765083
+====> Epoch: 63 Average loss: 71.9446
+====> Test set loss: KLD Loss = 4.0168, NLL Loss = 67.8402 
+epoch 64
+Train Epoch: 64 [0/60000 (0%)]	 KLD Loss: 3.818846 	 NLL Loss: 68.206795
+Train Epoch: 64 [2800/60000 (21%)]	 KLD Loss: 4.106158 	 NLL Loss: 67.570175
+Train Epoch: 64 [5600/60000 (43%)]	 KLD Loss: 3.952101 	 NLL Loss: 66.136963
+Train Epoch: 64 [8400/60000 (64%)]	 KLD Loss: 4.098208 	 NLL Loss: 70.572960
+Train Epoch: 64 [11200/60000 (85%)]	 KLD Loss: 4.125514 	 NLL Loss: 66.491943
+====> Epoch: 64 Average loss: 71.8880
+====> Test set loss: KLD Loss = 4.0130, NLL Loss = 67.6603 
+epoch 65
+Train Epoch: 65 [0/60000 (0%)]	 KLD Loss: 4.022603 	 NLL Loss: 64.970406
+Train Epoch: 65 [2800/60000 (21%)]	 KLD Loss: 3.946035 	 NLL Loss: 66.296349
+Train Epoch: 65 [5600/60000 (43%)]	 KLD Loss: 4.460816 	 NLL Loss: 70.676521
+Train Epoch: 65 [8400/60000 (64%)]	 KLD Loss: 4.016540 	 NLL Loss: 70.189888
+Train Epoch: 65 [11200/60000 (85%)]	 KLD Loss: 3.846607 	 NLL Loss: 69.431747
+====> Epoch: 65 Average loss: 72.6901
+====> Test set loss: KLD Loss = 4.2435, NLL Loss = 67.9950 
+epoch 66
+Train Epoch: 66 [0/60000 (0%)]	 KLD Loss: 4.122863 	 NLL Loss: 66.591705
+Train Epoch: 66 [2800/60000 (21%)]	 KLD Loss: 3.930253 	 NLL Loss: 65.541359
+Train Epoch: 66 [5600/60000 (43%)]	 KLD Loss: 4.260936 	 NLL Loss: 68.870193
+Train Epoch: 66 [8400/60000 (64%)]	 KLD Loss: 4.155318 	 NLL Loss: 67.439308
+Train Epoch: 66 [11200/60000 (85%)]	 KLD Loss: 4.141809 	 NLL Loss: 66.241341
+====> Epoch: 66 Average loss: 71.8935
+====> Test set loss: KLD Loss = 4.0587, NLL Loss = 67.7425 
+epoch 67
+Train Epoch: 67 [0/60000 (0%)]	 KLD Loss: 3.998427 	 NLL Loss: 66.499695
+Train Epoch: 67 [2800/60000 (21%)]	 KLD Loss: 4.468880 	 NLL Loss: 67.402618
+Train Epoch: 67 [5600/60000 (43%)]	 KLD Loss: 3.996067 	 NLL Loss: 68.524323
+Train Epoch: 67 [8400/60000 (64%)]	 KLD Loss: 3.821646 	 NLL Loss: 68.051819
+Train Epoch: 67 [11200/60000 (85%)]	 KLD Loss: 4.012621 	 NLL Loss: 67.070953
+====> Epoch: 67 Average loss: 72.2624
+====> Test set loss: KLD Loss = 4.0798, NLL Loss = 67.5038 
+epoch 68
+Train Epoch: 68 [0/60000 (0%)]	 KLD Loss: 3.991065 	 NLL Loss: 69.334534
+Train Epoch: 68 [2800/60000 (21%)]	 KLD Loss: 4.382718 	 NLL Loss: 69.690941
+Train Epoch: 68 [5600/60000 (43%)]	 KLD Loss: 4.007482 	 NLL Loss: 68.682472
+Train Epoch: 68 [8400/60000 (64%)]	 KLD Loss: 4.590459 	 NLL Loss: 69.373573
+Train Epoch: 68 [11200/60000 (85%)]	 KLD Loss: 4.257128 	 NLL Loss: 68.510826
+====> Epoch: 68 Average loss: 71.7112
+====> Test set loss: KLD Loss = 4.1086, NLL Loss = 67.5290 
+epoch 69
+Train Epoch: 69 [0/60000 (0%)]	 KLD Loss: 4.104426 	 NLL Loss: 67.614281
+Train Epoch: 69 [2800/60000 (21%)]	 KLD Loss: 4.247513 	 NLL Loss: 67.134239
+Train Epoch: 69 [5600/60000 (43%)]	 KLD Loss: 4.158726 	 NLL Loss: 68.181404
+Train Epoch: 69 [8400/60000 (64%)]	 KLD Loss: 4.290031 	 NLL Loss: 67.771736
+Train Epoch: 69 [11200/60000 (85%)]	 KLD Loss: 4.370540 	 NLL Loss: 67.907585
+====> Epoch: 69 Average loss: 72.4423
+====> Test set loss: KLD Loss = 4.2391, NLL Loss = 67.9663 
+epoch 70
+Train Epoch: 70 [0/60000 (0%)]	 KLD Loss: 4.223438 	 NLL Loss: 65.788452
+Train Epoch: 70 [2800/60000 (21%)]	 KLD Loss: 4.109042 	 NLL Loss: 68.519203
+Train Epoch: 70 [5600/60000 (43%)]	 KLD Loss: 4.096228 	 NLL Loss: 68.542534
+Train Epoch: 70 [8400/60000 (64%)]	 KLD Loss: 4.338992 	 NLL Loss: 68.663589
+Train Epoch: 70 [11200/60000 (85%)]	 KLD Loss: 4.063111 	 NLL Loss: 69.545471
+====> Epoch: 70 Average loss: 71.8148
+====> Test set loss: KLD Loss = 4.0963, NLL Loss = 67.4696 
+epoch 71
+Train Epoch: 71 [0/60000 (0%)]	 KLD Loss: 4.156126 	 NLL Loss: 66.917435
+Train Epoch: 71 [2800/60000 (21%)]	 KLD Loss: 3.904922 	 NLL Loss: 67.366486
+Train Epoch: 71 [5600/60000 (43%)]	 KLD Loss: 4.298300 	 NLL Loss: 71.439842
+Train Epoch: 71 [8400/60000 (64%)]	 KLD Loss: 3.763137 	 NLL Loss: 67.839279
+Train Epoch: 71 [11200/60000 (85%)]	 KLD Loss: 4.332107 	 NLL Loss: 67.144882
+====> Epoch: 71 Average loss: 71.6229
+====> Test set loss: KLD Loss = 4.0116, NLL Loss = 67.5656 
+Saved model to saves/vrnn_state_dict_71.pth
+epoch 72
+Train Epoch: 72 [0/60000 (0%)]	 KLD Loss: 3.955628 	 NLL Loss: 66.460030
+Train Epoch: 72 [2800/60000 (21%)]	 KLD Loss: 4.444792 	 NLL Loss: 72.648895
+Train Epoch: 72 [5600/60000 (43%)]	 KLD Loss: 3.995792 	 NLL Loss: 67.405243
+Train Epoch: 72 [8400/60000 (64%)]	 KLD Loss: 3.962203 	 NLL Loss: 68.497429
+Train Epoch: 72 [11200/60000 (85%)]	 KLD Loss: 3.960195 	 NLL Loss: 65.779854
+====> Epoch: 72 Average loss: 71.7580
+====> Test set loss: KLD Loss = 4.0267, NLL Loss = 67.3749 
+epoch 73
+Train Epoch: 73 [0/60000 (0%)]	 KLD Loss: 4.097069 	 NLL Loss: 66.905228
+Train Epoch: 73 [2800/60000 (21%)]	 KLD Loss: 4.173961 	 NLL Loss: 66.546005
+Train Epoch: 73 [5600/60000 (43%)]	 KLD Loss: 4.168326 	 NLL Loss: 67.655594
+Train Epoch: 73 [8400/60000 (64%)]	 KLD Loss: 3.819217 	 NLL Loss: 66.467316
+Train Epoch: 73 [11200/60000 (85%)]	 KLD Loss: 4.238646 	 NLL Loss: 68.780182
+====> Epoch: 73 Average loss: 71.5919
+====> Test set loss: KLD Loss = 3.9941, NLL Loss = 67.4872 
+epoch 74
+Train Epoch: 74 [0/60000 (0%)]	 KLD Loss: 4.117382 	 NLL Loss: 67.804123
+Train Epoch: 74 [2800/60000 (21%)]	 KLD Loss: 4.103518 	 NLL Loss: 66.977325
+Train Epoch: 74 [5600/60000 (43%)]	 KLD Loss: 4.251795 	 NLL Loss: 66.734703
+Train Epoch: 74 [8400/60000 (64%)]	 KLD Loss: 4.332399 	 NLL Loss: 65.117073
+Train Epoch: 74 [11200/60000 (85%)]	 KLD Loss: 4.112299 	 NLL Loss: 68.351189
+====> Epoch: 74 Average loss: 71.6156
+====> Test set loss: KLD Loss = 4.2255, NLL Loss = 67.3019 
+epoch 75
+Train Epoch: 75 [0/60000 (0%)]	 KLD Loss: 4.496158 	 NLL Loss: 67.856323
+Train Epoch: 75 [2800/60000 (21%)]	 KLD Loss: 4.162612 	 NLL Loss: 68.156952
+Train Epoch: 75 [5600/60000 (43%)]	 KLD Loss: 4.408447 	 NLL Loss: 65.666275
+Train Epoch: 75 [8400/60000 (64%)]	 KLD Loss: 4.033597 	 NLL Loss: 66.783752
+Train Epoch: 75 [11200/60000 (85%)]	 KLD Loss: 3.828992 	 NLL Loss: 65.073845
+====> Epoch: 75 Average loss: 71.5185
+====> Test set loss: KLD Loss = 4.2442, NLL Loss = 67.1802 
+epoch 76
+Train Epoch: 76 [0/60000 (0%)]	 KLD Loss: 4.320392 	 NLL Loss: 69.145645
+Train Epoch: 76 [2800/60000 (21%)]	 KLD Loss: 4.018570 	 NLL Loss: 68.361656
+Train Epoch: 76 [5600/60000 (43%)]	 KLD Loss: 3.858094 	 NLL Loss: 65.560600
+Train Epoch: 76 [8400/60000 (64%)]	 KLD Loss: 4.229054 	 NLL Loss: 70.490486
+Train Epoch: 76 [11200/60000 (85%)]	 KLD Loss: 4.212494 	 NLL Loss: 68.271889
+====> Epoch: 76 Average loss: 71.6304
+====> Test set loss: KLD Loss = 4.2035, NLL Loss = 67.5314 
+epoch 77
+Train Epoch: 77 [0/60000 (0%)]	 KLD Loss: 4.212101 	 NLL Loss: 67.049530
+Train Epoch: 77 [2800/60000 (21%)]	 KLD Loss: 4.417768 	 NLL Loss: 68.954750
+Train Epoch: 77 [5600/60000 (43%)]	 KLD Loss: 4.272464 	 NLL Loss: 68.284073
+Train Epoch: 77 [8400/60000 (64%)]	 KLD Loss: 4.416152 	 NLL Loss: 71.173508
+Train Epoch: 77 [11200/60000 (85%)]	 KLD Loss: 3.954178 	 NLL Loss: 69.138573
+====> Epoch: 77 Average loss: 71.5945
+====> Test set loss: KLD Loss = 4.0858, NLL Loss = 67.2538 
+epoch 78
+Train Epoch: 78 [0/60000 (0%)]	 KLD Loss: 4.198008 	 NLL Loss: 66.271873
+Train Epoch: 78 [2800/60000 (21%)]	 KLD Loss: 4.067436 	 NLL Loss: 70.084114
+Train Epoch: 78 [5600/60000 (43%)]	 KLD Loss: 4.308885 	 NLL Loss: 69.937302
+Train Epoch: 78 [8400/60000 (64%)]	 KLD Loss: 4.080149 	 NLL Loss: 69.289337
+Train Epoch: 78 [11200/60000 (85%)]	 KLD Loss: 4.131151 	 NLL Loss: 65.628784
+====> Epoch: 78 Average loss: 72.8576
+====> Test set loss: KLD Loss = 4.4765, NLL Loss = 67.9208 
+epoch 79
+Train Epoch: 79 [0/60000 (0%)]	 KLD Loss: 4.814621 	 NLL Loss: 66.750420
+Train Epoch: 79 [2800/60000 (21%)]	 KLD Loss: 4.185225 	 NLL Loss: 65.926758
+Train Epoch: 79 [5600/60000 (43%)]	 KLD Loss: 4.393860 	 NLL Loss: 65.742821
+Train Epoch: 79 [8400/60000 (64%)]	 KLD Loss: 4.156717 	 NLL Loss: 65.895798
+Train Epoch: 79 [11200/60000 (85%)]	 KLD Loss: 4.385146 	 NLL Loss: 69.024971
+====> Epoch: 79 Average loss: 72.1144
+====> Test set loss: KLD Loss = 4.2065, NLL Loss = 67.5473 
+epoch 80
+Train Epoch: 80 [0/60000 (0%)]	 KLD Loss: 4.181358 	 NLL Loss: 67.783081
+Train Epoch: 80 [2800/60000 (21%)]	 KLD Loss: 4.095896 	 NLL Loss: 66.575150
+Train Epoch: 80 [5600/60000 (43%)]	 KLD Loss: 4.231916 	 NLL Loss: 65.502869
+Train Epoch: 80 [8400/60000 (64%)]	 KLD Loss: 4.066576 	 NLL Loss: 66.692909
+Train Epoch: 80 [11200/60000 (85%)]	 KLD Loss: 4.051841 	 NLL Loss: 66.073395
+====> Epoch: 80 Average loss: 71.6644
+====> Test set loss: KLD Loss = 4.2733, NLL Loss = 67.2443 
+epoch 81
+Train Epoch: 81 [0/60000 (0%)]	 KLD Loss: 4.153794 	 NLL Loss: 66.209137
+Train Epoch: 81 [2800/60000 (21%)]	 KLD Loss: 4.088054 	 NLL Loss: 68.550179
+Train Epoch: 81 [5600/60000 (43%)]	 KLD Loss: 4.084287 	 NLL Loss: 67.214760
+Train Epoch: 81 [8400/60000 (64%)]	 KLD Loss: 3.976602 	 NLL Loss: 67.689148
+Train Epoch: 81 [11200/60000 (85%)]	 KLD Loss: 3.980866 	 NLL Loss: 66.028328
+====> Epoch: 81 Average loss: 71.4469
+====> Test set loss: KLD Loss = 4.1793, NLL Loss = 67.2415 
+Saved model to saves/vrnn_state_dict_81.pth
+epoch 82
+Train Epoch: 82 [0/60000 (0%)]	 KLD Loss: 3.961005 	 NLL Loss: 68.144264
+Train Epoch: 82 [2800/60000 (21%)]	 KLD Loss: 3.991053 	 NLL Loss: 67.440865
+Train Epoch: 82 [5600/60000 (43%)]	 KLD Loss: 4.125406 	 NLL Loss: 66.487701
+Train Epoch: 82 [8400/60000 (64%)]	 KLD Loss: 3.626986 	 NLL Loss: 68.174255
+Train Epoch: 82 [11200/60000 (85%)]	 KLD Loss: 4.163836 	 NLL Loss: 67.009323
+====> Epoch: 82 Average loss: 71.3645
+====> Test set loss: KLD Loss = 4.1362, NLL Loss = 67.3634 
+epoch 83
+Train Epoch: 83 [0/60000 (0%)]	 KLD Loss: 4.306853 	 NLL Loss: 67.480370
+Train Epoch: 83 [2800/60000 (21%)]	 KLD Loss: 4.474644 	 NLL Loss: 68.541985
+Train Epoch: 83 [5600/60000 (43%)]	 KLD Loss: 4.288745 	 NLL Loss: 66.876251
+Train Epoch: 83 [8400/60000 (64%)]	 KLD Loss: 4.387464 	 NLL Loss: 68.288574
+Train Epoch: 83 [11200/60000 (85%)]	 KLD Loss: 3.802672 	 NLL Loss: 65.544983
+====> Epoch: 83 Average loss: 71.5545
+====> Test set loss: KLD Loss = 4.1501, NLL Loss = 67.3062 
+epoch 84
+Train Epoch: 84 [0/60000 (0%)]	 KLD Loss: 3.870630 	 NLL Loss: 66.851860
+Train Epoch: 84 [2800/60000 (21%)]	 KLD Loss: 3.960078 	 NLL Loss: 66.543953
+Train Epoch: 84 [5600/60000 (43%)]	 KLD Loss: 4.014739 	 NLL Loss: 65.389053
+Train Epoch: 84 [8400/60000 (64%)]	 KLD Loss: 3.968553 	 NLL Loss: 66.094055
+Train Epoch: 84 [11200/60000 (85%)]	 KLD Loss: 4.059294 	 NLL Loss: 67.365753
+====> Epoch: 84 Average loss: 71.2953
+====> Test set loss: KLD Loss = 4.0805, NLL Loss = 67.0728 
+epoch 85
+Train Epoch: 85 [0/60000 (0%)]	 KLD Loss: 4.054654 	 NLL Loss: 66.003586
+Train Epoch: 85 [2800/60000 (21%)]	 KLD Loss: 4.135047 	 NLL Loss: 67.988869
+Train Epoch: 85 [5600/60000 (43%)]	 KLD Loss: 4.150899 	 NLL Loss: 66.589081
+Train Epoch: 85 [8400/60000 (64%)]	 KLD Loss: 3.874037 	 NLL Loss: 67.360550
+Train Epoch: 85 [11200/60000 (85%)]	 KLD Loss: 3.885363 	 NLL Loss: 62.367851
+====> Epoch: 85 Average loss: 71.3733
+====> Test set loss: KLD Loss = 4.0790, NLL Loss = 67.1094 
+epoch 86
+Train Epoch: 86 [0/60000 (0%)]	 KLD Loss: 4.110224 	 NLL Loss: 63.859200
+Train Epoch: 86 [2800/60000 (21%)]	 KLD Loss: 4.018930 	 NLL Loss: 69.594521
+Train Epoch: 86 [5600/60000 (43%)]	 KLD Loss: 4.056338 	 NLL Loss: 65.235519
+Train Epoch: 86 [8400/60000 (64%)]	 KLD Loss: 3.895349 	 NLL Loss: 65.371422
+Train Epoch: 86 [11200/60000 (85%)]	 KLD Loss: 4.018315 	 NLL Loss: 68.279091
+====> Epoch: 86 Average loss: 71.2673
+====> Test set loss: KLD Loss = 4.1010, NLL Loss = 67.1296 
+epoch 87
+Train Epoch: 87 [0/60000 (0%)]	 KLD Loss: 4.159719 	 NLL Loss: 65.458168
+Train Epoch: 87 [2800/60000 (21%)]	 KLD Loss: 4.099733 	 NLL Loss: 67.327614
+Train Epoch: 87 [5600/60000 (43%)]	 KLD Loss: 3.912564 	 NLL Loss: 68.541206
+Train Epoch: 87 [8400/60000 (64%)]	 KLD Loss: 3.994561 	 NLL Loss: 65.653709
+Train Epoch: 87 [11200/60000 (85%)]	 KLD Loss: 4.304065 	 NLL Loss: 69.384155
+====> Epoch: 87 Average loss: 71.3131
+====> Test set loss: KLD Loss = 4.1425, NLL Loss = 67.2095 
+epoch 88
+Train Epoch: 88 [0/60000 (0%)]	 KLD Loss: 4.052957 	 NLL Loss: 68.613731
+Train Epoch: 88 [2800/60000 (21%)]	 KLD Loss: 4.220544 	 NLL Loss: 70.119293
+Train Epoch: 88 [5600/60000 (43%)]	 KLD Loss: 3.906347 	 NLL Loss: 66.728592
+Train Epoch: 88 [8400/60000 (64%)]	 KLD Loss: 4.175111 	 NLL Loss: 66.643570
+Train Epoch: 88 [11200/60000 (85%)]	 KLD Loss: 4.399393 	 NLL Loss: 68.706062
+====> Epoch: 88 Average loss: 71.4610
+====> Test set loss: KLD Loss = 4.3562, NLL Loss = 69.3301 
+epoch 89
+Train Epoch: 89 [0/60000 (0%)]	 KLD Loss: 4.298604 	 NLL Loss: 69.549011
+Train Epoch: 89 [2800/60000 (21%)]	 KLD Loss: 4.266731 	 NLL Loss: 68.669281
+Train Epoch: 89 [5600/60000 (43%)]	 KLD Loss: 4.128376 	 NLL Loss: 65.252213
+Train Epoch: 89 [8400/60000 (64%)]	 KLD Loss: 3.702597 	 NLL Loss: 64.670242
+Train Epoch: 89 [11200/60000 (85%)]	 KLD Loss: 4.372394 	 NLL Loss: 66.846306
+====> Epoch: 89 Average loss: 71.5837
+====> Test set loss: KLD Loss = 4.0690, NLL Loss = 67.1151 
+epoch 90
+Train Epoch: 90 [0/60000 (0%)]	 KLD Loss: 4.280456 	 NLL Loss: 66.783661
+Train Epoch: 90 [2800/60000 (21%)]	 KLD Loss: 4.454499 	 NLL Loss: 68.607903
+Train Epoch: 90 [5600/60000 (43%)]	 KLD Loss: 4.023929 	 NLL Loss: 67.080658
+Train Epoch: 90 [8400/60000 (64%)]	 KLD Loss: 4.156428 	 NLL Loss: 68.235580
+Train Epoch: 90 [11200/60000 (85%)]	 KLD Loss: 3.927227 	 NLL Loss: 66.119141
+====> Epoch: 90 Average loss: 71.1853
+====> Test set loss: KLD Loss = 4.0933, NLL Loss = 67.1594 
+epoch 91
+Train Epoch: 91 [0/60000 (0%)]	 KLD Loss: 4.130863 	 NLL Loss: 67.981239
+Train Epoch: 91 [2800/60000 (21%)]	 KLD Loss: 4.221337 	 NLL Loss: 65.148491
+Train Epoch: 91 [5600/60000 (43%)]	 KLD Loss: 3.928703 	 NLL Loss: 67.985497
+Train Epoch: 91 [8400/60000 (64%)]	 KLD Loss: 3.941781 	 NLL Loss: 66.168457
+Train Epoch: 91 [11200/60000 (85%)]	 KLD Loss: 4.002659 	 NLL Loss: 66.967560
+====> Epoch: 91 Average loss: 71.1685
+====> Test set loss: KLD Loss = 4.0637, NLL Loss = 67.1710 
+Saved model to saves/vrnn_state_dict_91.pth
+epoch 92
+Train Epoch: 92 [0/60000 (0%)]	 KLD Loss: 4.185557 	 NLL Loss: 69.247932
+Train Epoch: 92 [2800/60000 (21%)]	 KLD Loss: 4.318632 	 NLL Loss: 67.422318
+Train Epoch: 92 [5600/60000 (43%)]	 KLD Loss: 3.996368 	 NLL Loss: 64.994446
+Train Epoch: 92 [8400/60000 (64%)]	 KLD Loss: 4.003769 	 NLL Loss: 67.059219
+Train Epoch: 92 [11200/60000 (85%)]	 KLD Loss: 4.187362 	 NLL Loss: 67.759872
+====> Epoch: 92 Average loss: 71.1529
+====> Test set loss: KLD Loss = 4.1589, NLL Loss = 67.1048 
+epoch 93
+Train Epoch: 93 [0/60000 (0%)]	 KLD Loss: 4.515813 	 NLL Loss: 68.903709
+Train Epoch: 93 [2800/60000 (21%)]	 KLD Loss: 3.904766 	 NLL Loss: 66.389343
+Train Epoch: 93 [5600/60000 (43%)]	 KLD Loss: 4.363780 	 NLL Loss: 68.233513
+Train Epoch: 93 [8400/60000 (64%)]	 KLD Loss: 4.296380 	 NLL Loss: 70.036507
+Train Epoch: 93 [11200/60000 (85%)]	 KLD Loss: 4.413630 	 NLL Loss: 68.405861
+====> Epoch: 93 Average loss: 71.2577
+====> Test set loss: KLD Loss = 4.1555, NLL Loss = 67.1053 
+epoch 94
+Train Epoch: 94 [0/60000 (0%)]	 KLD Loss: 4.408245 	 NLL Loss: 68.402924
+Train Epoch: 94 [2800/60000 (21%)]	 KLD Loss: 4.323830 	 NLL Loss: 69.542030
+Train Epoch: 94 [5600/60000 (43%)]	 KLD Loss: 4.042343 	 NLL Loss: 66.075874
+Train Epoch: 94 [8400/60000 (64%)]	 KLD Loss: 4.080891 	 NLL Loss: 64.802681
+Train Epoch: 94 [11200/60000 (85%)]	 KLD Loss: 3.830564 	 NLL Loss: 69.080612
+====> Epoch: 94 Average loss: 71.2553
+====> Test set loss: KLD Loss = 4.2458, NLL Loss = 66.8171 
+epoch 95
+Train Epoch: 95 [0/60000 (0%)]	 KLD Loss: 4.111652 	 NLL Loss: 68.361443
+Train Epoch: 95 [2800/60000 (21%)]	 KLD Loss: 4.216228 	 NLL Loss: 66.012909
+Train Epoch: 95 [5600/60000 (43%)]	 KLD Loss: 4.129546 	 NLL Loss: 69.889763
+Train Epoch: 95 [8400/60000 (64%)]	 KLD Loss: 4.023277 	 NLL Loss: 67.229485
+Train Epoch: 95 [11200/60000 (85%)]	 KLD Loss: 3.845933 	 NLL Loss: 67.599976
+====> Epoch: 95 Average loss: 71.4388
+====> Test set loss: KLD Loss = 4.1165, NLL Loss = 66.9794 
+epoch 96
+Train Epoch: 96 [0/60000 (0%)]	 KLD Loss: 3.979079 	 NLL Loss: 66.684959
+Train Epoch: 96 [2800/60000 (21%)]	 KLD Loss: 4.332065 	 NLL Loss: 67.442680
+Train Epoch: 96 [5600/60000 (43%)]	 KLD Loss: 4.074218 	 NLL Loss: 63.908878
+Train Epoch: 96 [8400/60000 (64%)]	 KLD Loss: 3.958360 	 NLL Loss: 66.600006
+Train Epoch: 96 [11200/60000 (85%)]	 KLD Loss: 4.022692 	 NLL Loss: 69.789734
+====> Epoch: 96 Average loss: 71.2080
+====> Test set loss: KLD Loss = 4.1732, NLL Loss = 66.9896 
+epoch 97
+Train Epoch: 97 [0/60000 (0%)]	 KLD Loss: 3.968327 	 NLL Loss: 66.246002
+Train Epoch: 97 [2800/60000 (21%)]	 KLD Loss: 4.290941 	 NLL Loss: 67.277985
+Train Epoch: 97 [5600/60000 (43%)]	 KLD Loss: 4.094911 	 NLL Loss: 67.552505
+Train Epoch: 97 [8400/60000 (64%)]	 KLD Loss: 3.917257 	 NLL Loss: 66.646606
+Train Epoch: 97 [11200/60000 (85%)]	 KLD Loss: 3.999527 	 NLL Loss: 64.830566
+====> Epoch: 97 Average loss: 71.0337
+====> Test set loss: KLD Loss = 4.1183, NLL Loss = 67.0626 
+epoch 98
+Train Epoch: 98 [0/60000 (0%)]	 KLD Loss: 4.052743 	 NLL Loss: 68.117043
+Train Epoch: 98 [2800/60000 (21%)]	 KLD Loss: 4.228707 	 NLL Loss: 66.064301
+Train Epoch: 98 [5600/60000 (43%)]	 KLD Loss: 4.130236 	 NLL Loss: 66.485298
+Train Epoch: 98 [8400/60000 (64%)]	 KLD Loss: 3.958274 	 NLL Loss: 67.093330
+Train Epoch: 98 [11200/60000 (85%)]	 KLD Loss: 3.907244 	 NLL Loss: 66.968903
+====> Epoch: 98 Average loss: 71.1876
+====> Test set loss: KLD Loss = 4.1248, NLL Loss = 67.0476 
+epoch 99
+Train Epoch: 99 [0/60000 (0%)]	 KLD Loss: 4.056927 	 NLL Loss: 67.825333
+Train Epoch: 99 [2800/60000 (21%)]	 KLD Loss: 4.374382 	 NLL Loss: 68.969803
+Train Epoch: 99 [5600/60000 (43%)]	 KLD Loss: 4.138408 	 NLL Loss: 66.441170
+Train Epoch: 99 [8400/60000 (64%)]	 KLD Loss: 4.298658 	 NLL Loss: 68.253426
+Train Epoch: 99 [11200/60000 (85%)]	 KLD Loss: 4.171497 	 NLL Loss: 67.266563
+====> Epoch: 99 Average loss: 72.2125
+====> Test set loss: KLD Loss = 4.2642, NLL Loss = 67.1505 
+epoch 100
+Train Epoch: 100 [0/60000 (0%)]	 KLD Loss: 4.485526 	 NLL Loss: 66.135475
+Train Epoch: 100 [2800/60000 (21%)]	 KLD Loss: 3.742051 	 NLL Loss: 61.411556
+Train Epoch: 100 [5600/60000 (43%)]	 KLD Loss: 4.057311 	 NLL Loss: 66.145279
+Train Epoch: 100 [8400/60000 (64%)]	 KLD Loss: 4.260554 	 NLL Loss: 69.139610
+Train Epoch: 100 [11200/60000 (85%)]	 KLD Loss: 4.131526 	 NLL Loss: 69.123253
+====> Epoch: 100 Average loss: 71.1021
+====> Test set loss: KLD Loss = 4.3028, NLL Loss = 66.6059 
